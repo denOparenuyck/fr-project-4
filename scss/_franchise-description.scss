@@ -1,0 +1,39 @@
+.franchise-description {
+    padding-top: 2vw;
+    &__wrapper {
+    }
+    &__top {
+        img{
+            margin: 0 auto;
+            width: 28vw;
+            padding-bottom: 3vw;
+            @media (max-width:991px) {
+                width: 40vw;
+                height: auto;
+            }
+            @media (max-width:550px) {
+                width: 45vw;
+            }
+        }
+    }
+    &__body {
+        padding: 40px 0;
+        background-color: #54565a;
+        &-text {
+            max-width: 46.875vw;
+            margin: 0 auto;
+            text-align: center;
+            color: #93d500;
+            line-height: 1.5;
+            font-size: 1.20vw;
+            @media (max-width:991px) {
+                max-width: 80%;
+                font-size: 2.35vw;
+            }
+            @media (max-width:550px) {
+                max-width: 90%;
+                font-size: 3.9vw;
+            }
+        }
+    }
+}

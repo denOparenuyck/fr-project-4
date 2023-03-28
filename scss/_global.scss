@@ -1,0 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "All Round Gothic";
+    letter-spacing: 1px;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1458px;
+    margin: 0 auto;
+}
+
+@media(max-width:1490px){
+    .container{
+        padding: 0 15px;
+    }
+}
